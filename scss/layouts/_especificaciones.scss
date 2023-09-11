@@ -1,0 +1,48 @@
+@import "../utilities/_variables.scss";
+
+.especificasiones{
+    justify-content: space-evenly;
+    padding: 25px;
+    margin-top: 1rem;
+    display: flex;
+
+
+    .diseño {
+        margin: $marg;
+        width: $ancho;
+        height: $alto;
+        padding: $pad;
+        background-color: $backg-esp;
+
+        h3 {
+            margin: 10px;
+        }
+        
+    }
+
+    .equpio{
+        margin: $marg;
+        width: $ancho;
+        height: $alto;
+        padding: $pad;
+        background-color: $backg-esp;
+
+        h3 {
+            margin: 5px;
+        }
+        
+    }
+    .seguridad {
+        margin: $marg;
+        width: $ancho;
+        height: $alto;
+        padding: $pad;
+        background-color: $backg-esp;
+
+        
+            h3 {
+            margin: 10px;
+        }
+        
+    }
+}

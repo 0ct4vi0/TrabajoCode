@@ -1,0 +1,23 @@
+
+
+@mixin mixin-boton {
+    display: flex;
+    background-color: rgb(32, 32, 32);
+    color: rgba(235, 240, 245, 0.979);
+    width: 225px;
+    border: 2px  solid   rgb(32, 32, 32) ;
+    border-radius: 10px;
+    /* margin-top: 43px; */
+    margin-left: 85px;
+    padding-left: 86px;
+
+
+
+        &:hover{
+            color: blue;
+            background-color: rgb(102, 133, 141);
+    
+    }
+
+}
+

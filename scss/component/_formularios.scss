@@ -1,0 +1,40 @@
+@import "../utilities/_boton.scss";
+
+
+.conteiner_form{
+    display: flex;
+    margin-left: 6rem;
+    background-color: rgb(150, 143, 143);
+    width: 430px;
+    height: 350px;
+    padding: 10px;
+    border:  4px solid black;
+
+        .formulario{
+
+            #sucursal{
+                margin: 10px;
+            }
+
+            input{
+                margin: 16px;
+                color: black;
+            }
+            
+            .formulario__texto{
+                display: flex;
+                margin: 16px;
+                /* margin-left: 58px; */
+                padding: 10px 125PX 80PX 80px;
+                /* width: 190px; */
+            }
+
+            .boton-mixin{
+                @include mixin-boton
+            }
+
+
+        }
+}
+
+
