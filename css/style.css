@@ -44,6 +44,11 @@ header .contactos1 img:hover {
   margin: 5px;
 }
 
+.map {
+  margin: 30px;
+  border: 5px solid black;
+}
+
 main img {
   width: 1348px;
   height: 650px;
@@ -51,6 +56,7 @@ main img {
 main h1 {
   padding-top: 40px;
   margin-bottom: 40px;
+  margin-left: 40px;
 }
 main section {
   display: flex;
@@ -67,18 +73,20 @@ main h2 {
   font-size: 25px;
   text-align: center;
   color: rgb(61, 59, 59);
-  margin: 25px;
+  margin: 27px;
 }
 
 .expocicion {
   display: flex;
   justify-content: space-between;
+  border: 5px solid black;
+  margin: 10px;
 }
 .expocicion img {
   width: 200px;
   height: 200px;
   padding: 5px;
-  margin: 5px;
+  margin: 10px;
   margin-bottom: 4rem;
   margin-top: 2rem;
 }
@@ -143,6 +151,7 @@ footer ul li {
 }
 .card .card-body {
   background-color: rgb(153, 148, 148);
+  padding: 30px;
   color: rgb(24, 23, 23);
 }
 
@@ -160,13 +169,13 @@ footer ul li {
 .especificasiones {
   justify-content: space-evenly;
   padding: 25px;
-  margin-left: 14rem;
+  margin-left: 4rem;
   display: flex;
 }
 .especificasiones .diseño {
-  margin: 20px;
-  width: 240px;
-  height: 290px;
+  margin: 26px;
+  width: 340px;
+  height: 370px;
   padding: 15px;
   background-color: rgb(165, 163, 163);
 }
@@ -174,9 +183,9 @@ footer ul li {
   margin: 10px;
 }
 .especificasiones .equpio {
-  margin: 20px;
-  width: 240px;
-  height: 290px;
+  margin: 26px;
+  width: 340px;
+  height: 370px;
   padding: 15px;
   background-color: rgb(165, 163, 163);
 }
@@ -184,14 +193,19 @@ footer ul li {
   margin: 5px;
 }
 .especificasiones .seguridad {
-  margin: 20px;
-  width: 240px;
-  height: 290px;
+  margin: 26px;
+  width: 340px;
+  height: 370px;
   padding: 15px;
   background-color: rgb(165, 163, 163);
 }
 .especificasiones .seguridad h3 {
   margin: 10px;
+}
+
+.map {
+  margin: 30px;
+  border: 5px solid black;
 }
 
 /*# sourceMappingURL=style.css.map */

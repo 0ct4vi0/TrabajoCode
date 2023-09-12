@@ -1,16 +1,18 @@
 .expocicion {
     display: flex;
     justify-content: space-between;
-    
-    
+    border: 5px solid black;
+    margin: 10px;
+     
     img{
         width: 200px;
         height: 200px;
         padding: 5px;
-        margin: 5px;
+        margin: 10px;
         margin-bottom: 4rem;
         margin-top: 2rem;
-
     }
 }
+
+
 
