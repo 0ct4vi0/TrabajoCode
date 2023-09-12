@@ -8,39 +8,47 @@ header{
     justify-content: space-around;
     z-index: 5;
 
-
-        img{
-            width: 298px;
-            border-radius: 100px;
-            border: 100px;
-            background-color:rgb(71, 70, 70);
-            }
-
-
     nav{
-        .item{
-            font-size: 22px;
-            margin: 30px;
-            color: rgb(83, 80, 80) ;    
-        }
 
-        .link{
-            color: white;
-        }
-
-    }
-
-    .container-fluid{
-        background-color: rgb(75, 73, 73);
-    }
+        .container-fluid{
+            background-color: rgb(173, 168, 168);
+            padding-left: 35px;
+            padding-right: 45px;
     
+            img{
+                width: 298px;
+                margin-right: 10px;
+                border-radius: 100px;
+                border: 100px;
+                background-color: rgb(173, 168, 168);
+                }
+    
+        
+                .nav-item{
+                    margin: 15px;
+                   
+                }
+    
+        }
+    }
+
 
     .contactos1{
         img{
-            width: 50px;
-            margin: 25px;
+            width: 55px;
+            margin: 20px;
             left: 34px;
+            border-radius: 100px;
+
+            &:hover {
+                transition: 1s;
+                animation-delay: 8s;
+                width: 70px;
+                margin:5px ;
+
+            }
         }
+
     } 
 
 

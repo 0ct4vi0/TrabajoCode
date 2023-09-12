@@ -16,27 +16,32 @@ header {
   justify-content: space-around;
   z-index: 5;
 }
-header img {
+header nav .container-fluid {
+  background-color: rgb(173, 168, 168);
+  padding-left: 35px;
+  padding-right: 45px;
+}
+header nav .container-fluid img {
   width: 298px;
+  margin-right: 10px;
   border-radius: 100px;
   border: 100px;
-  background-color: rgb(71, 70, 70);
+  background-color: rgb(173, 168, 168);
 }
-header nav .item {
-  font-size: 22px;
-  margin: 30px;
-  color: rgb(83, 80, 80);
-}
-header nav .link {
-  color: white;
-}
-header .container-fluid {
-  background-color: rgb(75, 73, 73);
+header nav .container-fluid .nav-item {
+  margin: 15px;
 }
 header .contactos1 img {
-  width: 50px;
-  margin: 25px;
+  width: 55px;
+  margin: 20px;
   left: 34px;
+  border-radius: 100px;
+}
+header .contactos1 img:hover {
+  transition: 1s;
+  animation-delay: 8s;
+  width: 70px;
+  margin: 5px;
 }
 
 main img {
@@ -92,8 +97,8 @@ footer ul li {
 }
 
 .conteiner_form {
-  display: flex;
   margin-left: 6rem;
+  display: flex;
   background-color: rgb(150, 143, 143);
   width: 430px;
   height: 350px;
@@ -119,15 +124,17 @@ footer ul li {
   background-color: rgb(32, 32, 32);
   color: rgba(235, 240, 245, 0.979);
   width: 225px;
+  height: 30px;
   border: 2px solid rgb(32, 32, 32);
   border-radius: 10px;
-  /* margin-top: 43px; */
   margin-left: 85px;
   padding-left: 86px;
 }
 .conteiner_form .formulario .boton-mixin:hover {
   color: blue;
   background-color: rgb(102, 133, 141);
+  transition: 1s;
+  animation-delay: 1s;
 }
 
 .card {
