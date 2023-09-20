@@ -1,7 +1,7 @@
 header{
     display: flex;
     align-items: center;
-    padding: 5px;
+    padding: 2rem;
     position: sticky;
     top: 0;
     background-color: rgb(32, 31, 31);
@@ -54,9 +54,34 @@ header{
 
 }
 
+@media(max-width:425px) {
+
+    header{
+
+        // padding: 1rem;
+        width: 20rem;
+        position: sticky;
+        background-color: red;
+
+        nav{
+            .container-fluid{
+                margin: 0%;
+                img{
+                    width: 20rem;
+                    padding: 2rem;
+                  }
+                .nav-item{
+                    margin: 3rem;   
+                }
+            }
+            .contactos1{
+                display: block;
+                justify-content: center;
 
 
 
+            }
+        }
+    }
 
-
-
+}
