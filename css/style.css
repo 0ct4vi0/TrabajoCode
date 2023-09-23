@@ -44,27 +44,6 @@ header .contactos1 img:hover {
   margin: 5px;
 }
 
-@media (max-width: 425px) {
-  header {
-    width: 20rem;
-    position: sticky;
-    background-color: red;
-  }
-  header nav .container-fluid {
-    margin: 0%;
-  }
-  header nav .container-fluid img {
-    width: 20rem;
-    padding: 2rem;
-  }
-  header nav .container-fluid .nav-item {
-    margin: 3rem;
-  }
-  header nav .contactos1 {
-    display: block;
-    justify-content: center;
-  }
-}
 .map {
   margin: 30px;
   border: 5px solid black;
