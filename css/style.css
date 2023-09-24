@@ -43,6 +43,14 @@ header .contactos1 img:hover {
   width: 70px;
   margin: 5px;
 }
+@media only screen and (max-width: 480px) {
+  header header {
+    background-color: red;
+  }
+  header header img {
+    width: 15%;
+  }
+}
 
 .map {
   margin: 30px;

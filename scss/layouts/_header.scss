@@ -1,4 +1,4 @@
-// @import "../utilities/_mixin.scss";
+@import "../utilities/_mixin.scss";
 
 
 
@@ -59,22 +59,22 @@ header{
     } 
 
 
-@media (max-width:480px){
-    background-color:red ;
+// @media (max-width:480px){
+//     background-color:red ;
     
-}
+// }
 
-    // @include mv(768px){ 
-    //     header{
-    //         background-color: red;
+    @include mv(){ 
+        header{
+            background-color: red;
 
-    //         img{
-    //             width: 15%;
+            img{
+                width: 15%;
 
-    //         } 
-    //     }
+            } 
+        }
     
 
-    // }
+    }
 }
 
