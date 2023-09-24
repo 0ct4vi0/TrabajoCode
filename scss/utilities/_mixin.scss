@@ -1,16 +1,5 @@
-@mixin flexible ($disp,$marg, $anch, $largo, $just, $aling) {
-    display: $disp;
-    margin: $marg;
-    width: $anch;
-    height: $largo;
-    justify-content: $just;
-    align-items: $aling;    
-}
-
-
 @mixin mv( $media: 480px){
-    @media screen and (max-width: $media){
+    @media only screen and (max-width: $media){
         @content;
     }
 }
-

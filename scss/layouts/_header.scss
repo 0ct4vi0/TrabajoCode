@@ -1,3 +1,7 @@
+// @import "../utilities/_mixin.scss";
+
+
+
 header{
     display: flex;
     align-items: center;
@@ -8,6 +12,9 @@ header{
     justify-content: space-around;
     z-index: 5;
 
+    
+
+    
     nav{
 
         .container-fluid{
@@ -35,6 +42,7 @@ header{
 
     .contactos1{
         img{
+            
             width: 55px;
             margin: 20px;
             left: 34px;
@@ -48,9 +56,25 @@ header{
 
             }
         }
-
     } 
 
 
+@media (max-width:480px){
+    background-color:red ;
+    
+}
+
+    // @include mv(768px){ 
+    //     header{
+    //         background-color: red;
+
+    //         img{
+    //             width: 15%;
+
+    //         } 
+    //     }
+    
+
+    // }
 }
 
