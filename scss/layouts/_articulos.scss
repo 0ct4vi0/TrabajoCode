@@ -1,3 +1,5 @@
+@import "../utilities/_mixin.scss";
+
 .expocicion {
     display: flex;
     justify-content: space-between;
@@ -9,8 +11,20 @@
         height: 200px;
         padding: 5px;
         margin: 10px;
-        margin-bottom: 4rem;
-        margin-top: 2rem;
+    }
+    @include mv(){
+
+        display: block;
+        border: 1%px solid black;
+        margin: 2%;
+        
+
+        img {
+            border: 3px solid black;
+            margin: 3%;
+
+        }
+          
     }
 }
 

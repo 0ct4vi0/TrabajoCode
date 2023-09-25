@@ -1,4 +1,5 @@
 @import "../utilities/map";
+@import "../utilities/_mixin.scss";
 
 
 main {
@@ -8,11 +9,13 @@ main {
         height:650px; 
     }
 
-    h1{  
-        padding-top: 40px;
-        margin-bottom: 40px; 
-        margin-left: 40px;     
+    h2{
+            font-size: 27px;
+            text-align: center;
+            color:rgb(61, 59, 59);
+            margin: 27px;
     }
+
 
     section{
 
@@ -26,30 +29,61 @@ main {
                 padding: 30px 0px 40px;
                 border-radius: 15px;
             }
-
-            
-
-
         }
-        
-        
-        
-        
-    h2{
-        font-size: 25px;
+         
+    .subtitulo1{
+            font-size: 25px;
             text-align: center;
             color:rgb(61, 59, 59);
             margin: 27px;
+    }
 
-
+    .subtitulo3{
+            font-size: 25px;
+            text-align: center;
+            color:rgb(61, 59, 59);
+            margin: 27px;
     }
 
 
+@include mv(){
+        
+                img{
+                    width: 71.5%;
+                    height:100%;
+                }
 
+                h2{
+                    font-size: 18px;
+                    margin:5%;
+                }
 
+        section{
+            display: block;
+            
+            img {
+                margin-left:12%;
+                width: 50%;
+                height: 50%;
+                border-radius: 15px;
+            }
+        }
+        .subtitulo1{
+            font-size: 17px;
+            color:rgb(61, 59, 59);
+            margin: 15px;
+            
+        }
 
+        .subtitulo3{
+            font-size: 17px;
+            color:rgb(61, 59, 59);
+            margin: 15px;
+            margin-left: 0%;
+        
+        }   
 
-
+    }
 
 }
 

@@ -1,9 +1,11 @@
+@import "../utilities/_mixin.scss";
+
 
 footer {
     color: white;
     background-color:  rgb(29, 27, 27);
-    background-position: 50px;
     padding: 30px;
+    margin: 0px;
 
 
     ul {
@@ -13,4 +15,11 @@ footer {
             margin: 1rem;
         }
     }
+
+@include mv(){
+    width: 71.5%;
+
+}
+
+
 }

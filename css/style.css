@@ -48,10 +48,15 @@ header .contactos1 img:hover {
     display: block;
     padding: 0px;
     margin: 0px;
+    width: 71.5%;
+  }
+  header nav .container-fluid {
+    padding: 0%;
   }
   header nav .container-fluid img {
-    width: 50%;
+    width: 45%;
     margin: 5px;
+    margin-right: 0px;
   }
 }
 
@@ -64,10 +69,11 @@ main img {
   width: 1348px;
   height: 650px;
 }
-main h1 {
-  padding-top: 40px;
-  margin-bottom: 40px;
-  margin-left: 40px;
+main h2 {
+  font-size: 27px;
+  text-align: center;
+  color: rgb(61, 59, 59);
+  margin: 27px;
 }
 main section {
   display: flex;
@@ -80,11 +86,47 @@ main section img {
   padding: 30px 0px 40px;
   border-radius: 15px;
 }
-main h2 {
+main .subtitulo1 {
   font-size: 25px;
   text-align: center;
   color: rgb(61, 59, 59);
   margin: 27px;
+}
+main .subtitulo3 {
+  font-size: 25px;
+  text-align: center;
+  color: rgb(61, 59, 59);
+  margin: 27px;
+}
+@media only screen and (max-width: 480px) {
+  main img {
+    width: 71.5%;
+    height: 100%;
+  }
+  main h2 {
+    font-size: 18px;
+    margin: 5%;
+  }
+  main section {
+    display: block;
+  }
+  main section img {
+    margin-left: 12%;
+    width: 50%;
+    height: 50%;
+    border-radius: 15px;
+  }
+  main .subtitulo1 {
+    font-size: 17px;
+    color: rgb(61, 59, 59);
+    margin: 15px;
+  }
+  main .subtitulo3 {
+    font-size: 17px;
+    color: rgb(61, 59, 59);
+    margin: 15px;
+    margin-left: 0%;
+  }
 }
 
 .expocicion {
@@ -98,21 +140,35 @@ main h2 {
   height: 200px;
   padding: 5px;
   margin: 10px;
-  margin-bottom: 4rem;
-  margin-top: 2rem;
+}
+@media only screen and (max-width: 480px) {
+  .expocicion {
+    display: block;
+    border: 1% px solid black;
+    margin: 2%;
+  }
+  .expocicion img {
+    border: 3px solid black;
+    margin: 3%;
+  }
 }
 
 footer {
   color: white;
   background-color: rgb(29, 27, 27);
-  background-position: 50px;
   padding: 30px;
+  margin: 0px;
 }
 footer ul {
   list-style-type: none;
 }
 footer ul li {
   margin: 1rem;
+}
+@media only screen and (max-width: 480px) {
+  footer {
+    width: 71.5%;
+  }
 }
 
 .conteiner_form {
@@ -134,9 +190,7 @@ footer ul li {
 .conteiner_form .formulario .formulario__texto {
   display: flex;
   margin: 16px;
-  /* margin-left: 58px; */
   padding: 10px 125PX 80PX 80px;
-  /* width: 190px; */
 }
 .conteiner_form .formulario .boton-mixin {
   display: flex;
@@ -154,6 +208,29 @@ footer ul li {
   background-color: rgb(102, 133, 141);
   transition: 1s;
   animation-delay: 1s;
+}
+@media only screen and (max-width: 480px) {
+  .conteiner_form .formulario .boton-mixin {
+    margin: 6%;
+    padding-left: 35%;
+    width: 88%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .conteiner_form {
+    margin: 6%;
+    width: 60%;
+    height: 60%;
+    padding: 2%;
+    display: block;
+  }
+  .conteiner_form .formulario {
+    margin: 3%;
+  }
+  .conteiner_form .formulario .formulario__texto {
+    padding: 10%;
+    margin: 3%;
+  }
 }
 
 .card {

@@ -1,4 +1,5 @@
 @import "../utilities/_boton.scss";
+@import "../utilities/_mixin.scss";
 
 
 .conteiner_form{
@@ -25,9 +26,7 @@
             .formulario__texto{
                 display: flex;
                 margin: 16px;
-                /* margin-left: 58px; */
                 padding: 10px 125PX 80PX 80px;
-                /* width: 190px; */
             }
 
             .boton-mixin{
@@ -36,6 +35,23 @@
 
 
         }
+      
+     @include mv(){
+        margin:6%;
+        width: 60%;
+        height:60%;
+        padding:2%;
+        display: block; 
+
+            .formulario{
+                margin: 3%;
+
+                .formulario__texto{
+                    padding: 10%;
+                    margin: 3%;
+                }
+            }
+     }
 }
 
 

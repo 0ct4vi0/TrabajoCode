@@ -1,4 +1,4 @@
-
+@import "../utilities/_mixin.scss";
 
 @mixin mixin-boton {
     display: flex;
@@ -19,6 +19,12 @@
             transition: 1s;
             animation-delay: 1s;   
     
+    }
+
+    @include mv(){
+        margin: 6%;
+        padding-left:35%;
+        width: 88%;       
     }
 
 }
