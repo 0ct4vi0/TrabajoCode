@@ -56,25 +56,28 @@ header{
 
             }
         }
-    } 
-
-
-// @media (max-width:480px){
-//     background-color:red ;
+    }
     
-// }
+    @include mv(){
+        display: block;
+        padding: 0px;
+        margin: 0px;
 
-    @include mv(){ 
-        header{
-            background-color: red;
 
-            img{
-                width: 15%;
+            nav {
+                .container-fluid{
 
-            } 
-        }
-    
+                    img{
+                        width: 50%;
+                        margin: 5px;
+
+
+                    }
+                }
+            
+            }
+        
 
     }
-}
 
+}

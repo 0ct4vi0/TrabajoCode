@@ -44,11 +44,14 @@ header .contactos1 img:hover {
   margin: 5px;
 }
 @media only screen and (max-width: 480px) {
-  header header {
-    background-color: red;
+  header {
+    display: block;
+    padding: 0px;
+    margin: 0px;
   }
-  header header img {
-    width: 15%;
+  header nav .container-fluid img {
+    width: 50%;
+    margin: 5px;
   }
 }
 
