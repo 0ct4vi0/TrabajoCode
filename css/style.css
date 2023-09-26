@@ -132,7 +132,7 @@ main .subtitulo3 {
 .expocicion {
   display: flex;
   justify-content: space-between;
-  border: 5px solid black;
+  border: 3px solid black;
   margin: 10px;
 }
 .expocicion img {
@@ -144,12 +144,13 @@ main .subtitulo3 {
 @media only screen and (max-width: 480px) {
   .expocicion {
     display: block;
-    border: 1% px solid black;
-    margin: 2%;
+    border: none;
+    margin-left: 11%;
   }
   .expocicion img {
     border: 3px solid black;
     margin: 3%;
+    padding: 3%;
   }
 }
 
@@ -242,6 +243,13 @@ footer ul li {
   padding: 30px;
   color: rgb(24, 23, 23);
 }
+@media only screen and (max-width: 480px) {
+  .card {
+    margin: 8%;
+    z-index: 5;
+    display: block;
+  }
+}
 
 #carouselExampleIndicators {
   width: 1300px;
@@ -289,6 +297,31 @@ footer ul li {
 }
 .especificasiones .seguridad h3 {
   margin: 10px;
+}
+@media only screen and (max-width: 480px) {
+  .especificasiones {
+    display: block;
+    margin: 8.5%;
+    padding: 0%;
+  }
+  .especificasiones .diseño {
+    margin: 4 .especificasiones .diseño;
+    padding: 5%;
+    width: 50%;
+    height: 50%;
+  }
+  .especificasiones .equpio {
+    margin: 4 .especificasiones .equpio;
+    padding: 5%;
+    width: 53%;
+    height: 50%;
+  }
+  .especificasiones .seguridad {
+    margin: 4 .especificasiones .seguridad;
+    padding: 5%;
+    width: 50%;
+    height: 50%;
+  }
 }
 
 .map {
