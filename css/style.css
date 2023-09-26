@@ -49,6 +49,7 @@ header .contactos1 img:hover {
     padding: 0px;
     margin: 0px;
     width: 71.5%;
+    position: fixed;
   }
   header nav .container-fluid {
     padding: 0%;
@@ -234,19 +235,25 @@ footer ul li {
   }
 }
 
-.card {
+section {
+  display: flex;
+  justify-content: space-evenly;
+}
+section .card {
   margin: 2rem;
   margin-bottom: 12rem;
 }
-.card .card-body {
+section .card .card-body {
   background-color: rgb(153, 148, 148);
   padding: 30px;
   color: rgb(24, 23, 23);
 }
 @media only screen and (max-width: 480px) {
-  .card {
-    margin: 8%;
+  section .card section {
+    margin-left: 30%;
     z-index: 5;
+  }
+  section .card section .card-body {
     display: block;
   }
 }
@@ -260,6 +267,17 @@ footer ul li {
   width: 1300px;
   height: 500px;
   margin-left: 2px;
+}
+@media only screen and (max-width: 480px) {
+  #carouselExampleIndicators {
+    width: 60%;
+    height: 40%;
+  }
+  #carouselExampleIndicators .carousel-inner img {
+    margin-top: 30%;
+    width: 30%;
+    height: 35%;
+  }
 }
 
 .especificasiones {
