@@ -1,4 +1,4 @@
-@import "../utilities/map";
+@import "../component/mapas";
 @import "../utilities/_mixin.scss";
 
 
@@ -17,7 +17,7 @@ main {
     }
 
 
-    section{
+    .seccion1{
 
         display: flex;
         align-items: center;
@@ -49,35 +49,38 @@ main {
 @include mv(){
         
                 img{
-                    width: 71.5%;
-                    height:100%;
+                    width:29.9rem;
+                    height:13rem;
                 }
-
+                
                 h2{
-                    font-size: 18px;
-                    margin:5%;
+                    margin: 5rem;
+                    font-size: 2rem;
+                    margin: 2rem;
                 }
 
-        section{
+            .seccion1{
             display: block;
+            align-items: center;
             
-            img {
-                margin-left:12%;
-                width: 50%;
-                height: 50%;
+            img { 
+                margin-left: 4.9rem;
+                margin-top: -2rem;
+                width: 20rem;
+                height: 19rem;
                 border-radius: 15px;
             }
         }
         .subtitulo1{
-            font-size: 17px;
-            color:rgb(61, 59, 59);
+            font-size: 1.9rem;
+            color:rgb(29, 28, 28);
             margin: 15px;
             
         }
 
         .subtitulo3{
-            font-size: 17px;
-            color:rgb(61, 59, 59);
+            font-size: 1.6rem;
+            color:rgb(27, 27, 27);
             margin: 15px;
             margin-left: 0%;
         

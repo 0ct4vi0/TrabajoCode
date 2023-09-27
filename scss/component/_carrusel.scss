@@ -20,17 +20,16 @@
 
                 }
          @include mv(){
-                width: 60%;
-                height: 40%;
                 
-                .carousel-inner {
+               margin: 3rem;
+               height:20rem;
+               width: 20rem;
 
-                        img{                            
-                                margin-top: 30%;
-                                width: 30%;
-                                height:35%;
-                        }
-        
+                .carousel-inner {
+                margin: 3rem;
+                height:20rem;
+                width: 20rem;
                 }
-        }  
+           
+        }
 }

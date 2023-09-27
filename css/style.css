@@ -48,22 +48,40 @@ header .contactos1 img:hover {
     display: block;
     padding: 0px;
     margin: 0px;
-    width: 71.5%;
-    position: fixed;
+    width: 29.9rem;
+    height: 12.5%;
   }
   header nav .container-fluid {
     padding: 0%;
+    width: 29.9rem;
+    height: 14%;
+    margin: 0%;
   }
   header nav .container-fluid img {
-    width: 45%;
-    margin: 5px;
-    margin-right: 0px;
+    width: 15rem;
+    margin: 1rem;
+  }
+  header .contactos1 img {
+    margin: 0.5rem;
+    margin-left: 4.5rem;
+    width: 3.4rem;
   }
 }
 
 .map {
-  margin: 30px;
-  border: 5px solid black;
+  display: flex;
+  margin: 100px;
+  margin-top: 70px;
+  margin-left: 30px;
+  border-radius: 30px;
+  width: 140px;
+}
+@media only screen and (max-width: 480px) {
+  .map {
+    margin-left: 100%;
+    width: 25rem;
+    height: 20rem;
+  }
 }
 
 main img {
@@ -76,11 +94,11 @@ main h2 {
   color: rgb(61, 59, 59);
   margin: 27px;
 }
-main section {
+main .seccion1 {
   display: flex;
   align-items: center;
 }
-main section img {
+main .seccion1 img {
   width: 525px;
   height: 425px;
   margin-left: 6rem;
@@ -101,30 +119,33 @@ main .subtitulo3 {
 }
 @media only screen and (max-width: 480px) {
   main img {
-    width: 71.5%;
-    height: 100%;
+    width: 29.9rem;
+    height: 13rem;
   }
   main h2 {
-    font-size: 18px;
-    margin: 5%;
+    margin: 5rem;
+    font-size: 2rem;
+    margin: 2rem;
   }
-  main section {
+  main .seccion1 {
     display: block;
+    align-items: center;
   }
-  main section img {
-    margin-left: 12%;
-    width: 50%;
-    height: 50%;
+  main .seccion1 img {
+    margin-left: 4.9rem;
+    margin-top: -2rem;
+    width: 20rem;
+    height: 19rem;
     border-radius: 15px;
   }
   main .subtitulo1 {
-    font-size: 17px;
-    color: rgb(61, 59, 59);
+    font-size: 1.9rem;
+    color: rgb(29, 28, 28);
     margin: 15px;
   }
   main .subtitulo3 {
-    font-size: 17px;
-    color: rgb(61, 59, 59);
+    font-size: 1.6rem;
+    color: rgb(27, 27, 27);
     margin: 15px;
     margin-left: 0%;
   }
@@ -146,7 +167,7 @@ main .subtitulo3 {
   .expocicion {
     display: block;
     border: none;
-    margin-left: 11%;
+    margin-left: 7.9rem;
   }
   .expocicion img {
     border: 3px solid black;
@@ -169,7 +190,7 @@ footer ul li {
 }
 @media only screen and (max-width: 480px) {
   footer {
-    width: 71.5%;
+    width: 29.9rem;
   }
 }
 
@@ -220,41 +241,46 @@ footer ul li {
 }
 @media only screen and (max-width: 480px) {
   .conteiner_form {
-    margin: 6%;
-    width: 60%;
-    height: 60%;
-    padding: 2%;
+    margin: 1rem;
+    margin-left: 5rem;
+    width: 20rem;
+    height: 27rem;
     display: block;
   }
   .conteiner_form .formulario {
-    margin: 3%;
+    margin: 1rem;
+    padding: 1rem;
   }
   .conteiner_form .formulario .formulario__texto {
-    padding: 10%;
-    margin: 3%;
+    padding: 2rem;
+    margin: 1rem;
+    margin-left: -0.4rem;
   }
 }
 
-section {
+.sectcion2 {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  margin-left: 0rem;
 }
-section .card {
-  margin: 2rem;
-  margin-bottom: 12rem;
+.sectcion2 .card {
+  margin: 1rem;
 }
-section .card .card-body {
+.sectcion2 .card .card-body {
   background-color: rgb(153, 148, 148);
-  padding: 30px;
+  padding: 1rem;
+  margin: 0.5rem;
+  width: 26rem;
   color: rgb(24, 23, 23);
 }
 @media only screen and (max-width: 480px) {
-  section .card section {
-    margin-left: 30%;
+  .sectcion2 .sectcion2 {
+    display: block;
     z-index: 5;
   }
-  section .card section .card-body {
+  .sectcion2 .sectcion2 .card-body {
     display: block;
+    margin-left: 4rem;
   }
 }
 
@@ -270,13 +296,14 @@ section .card .card-body {
 }
 @media only screen and (max-width: 480px) {
   #carouselExampleIndicators {
-    width: 60%;
-    height: 40%;
+    margin: 3rem;
+    height: 20rem;
+    width: 20rem;
   }
-  #carouselExampleIndicators .carousel-inner img {
-    margin-top: 30%;
-    width: 30%;
-    height: 35%;
+  #carouselExampleIndicators .carousel-inner {
+    margin: 3rem;
+    height: 20rem;
+    width: 20rem;
   }
 }
 
@@ -319,26 +346,26 @@ section .card .card-body {
 @media only screen and (max-width: 480px) {
   .especificasiones {
     display: block;
-    margin: 8.5%;
+    margin: 3.6rem;
     padding: 0%;
   }
   .especificasiones .diseño {
-    margin: 4 .especificasiones .diseño;
-    padding: 5%;
-    width: 50%;
-    height: 50%;
+    margin: 3rem;
+    padding: 1rem;
+    width: 16rem;
+    height: 27rem;
   }
   .especificasiones .equpio {
-    margin: 4 .especificasiones .equpio;
-    padding: 5%;
-    width: 53%;
-    height: 50%;
+    margin: 4rem;
+    padding: 1rem;
+    width: 15rem;
+    height: 28rem;
   }
   .especificasiones .seguridad {
-    margin: 4 .especificasiones .seguridad;
-    padding: 5%;
-    width: 50%;
-    height: 50%;
+    margin: 4rem;
+    padding: 1rem;
+    width: 15rem;
+    height: 32rem;
   }
 }
 

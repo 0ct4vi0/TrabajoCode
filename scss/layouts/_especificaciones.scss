@@ -48,28 +48,28 @@
     }
     @include mv(){
         display: block;
-        margin: 8.5%;
+        margin: 3.6rem;
         padding: 0%;   
 
             .diseño{
-                margin: 4&;
-                padding: 5%;
-                width: 50%;
-                height: 50%;
+                margin: 3rem;
+                padding: 1rem;
+                width: 16rem;
+                height: 27rem;
             }
 
             .equpio{
-                margin: 4&;
-                padding: 5%;
-                width: 53%;
-                height: 50%;
+                margin: 4rem;
+                padding: 1rem;
+                width: 15rem;
+                height: 28rem;
             }
 
             .seguridad{
-                margin: 4&;
-                padding:5%;
-                width: 50%;
-                height: 50%;
+                margin: 4rem;
+                padding: 1rem;
+                width: 15rem;
+                height: 32rem;
             }
 
     }

@@ -62,23 +62,32 @@ header{
         display: block;
         padding: 0px;
         margin: 0px;
-        width: 71.5%;
-        position: fixed;
+        width: 29.9rem;
+        height: 12.5%;
 
 
             nav {
+                
                 .container-fluid{
                     padding: 0%;
+                    width: 29.9rem;
+                    height:14%;
+                    margin: 0%;
 
                     img{
-                        width: 45%;
-                        margin: 5px; 
-                        margin-right:0px;
+                        width: 15rem;
+                        margin: 1rem; 
                     }
                 }
+            }
+        .contactos1{
+            img{
+                margin: 0.5rem;
+                margin-left: 4.5rem;
+                width: 3.4rem ;
             
             }
-        
+        }
 
     }
 

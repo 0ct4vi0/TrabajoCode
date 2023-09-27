@@ -1,3 +1,4 @@
+@import "../utilities/_mixin.scss";
 
 .map{
     display: flex;
@@ -6,4 +7,10 @@
     margin-left: 30px;
     border-radius:  30px;
     width: 140px;
+
+        @include mv(){
+            margin-left: 100%;
+            width: 25rem;
+            height: 20rem;
+    }   
 }

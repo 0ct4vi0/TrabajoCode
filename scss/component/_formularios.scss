@@ -37,18 +37,22 @@
         }
       
      @include mv(){
-        margin:6%;
-        width: 60%;
-        height:60%;
-        padding:2%;
+        margin:1rem;
+        margin-left: 5rem;
+        width: 20rem;
+        height:27rem;
+
         display: block; 
+        
 
             .formulario{
-                margin: 3%;
-
+                margin: 1rem;
+                padding: 1rem;
+            
                 .formulario__texto{
-                    padding: 10%;
-                    margin: 3%;
+                    padding: 2rem;
+                    margin: 1rem;
+                    margin-left: -0.4rem;
                 }
             }
      }
