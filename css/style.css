@@ -74,7 +74,6 @@ header .contactos1 img:hover {
 }
 @media only screen and (max-width: 480px) {
   .map {
-    margin-left: 100%;
     width: 25rem;
     height: 20rem;
   }
@@ -128,7 +127,9 @@ main .subtitulo3 {
   }
   main .seccion1 {
     display: block;
-    align-items: center;
+  }
+  main .seccion1 .map {
+    margin-left: 2rem;
   }
   main .seccion1 img {
     margin-left: 4.9rem;
