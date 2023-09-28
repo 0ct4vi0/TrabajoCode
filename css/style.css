@@ -69,12 +69,8 @@ header .contactos1 img:hover {
 }
 
 .map {
-  display: flex;
-  margin: 100px;
-  margin-top: 70px;
-  margin-left: 30px;
   border-radius: 30px;
-  width: 140px;
+  width: 27rem;
 }
 @media only screen and (max-width: 480px) {
   .map {
@@ -97,6 +93,9 @@ main h2 {
 main .seccion1 {
   display: flex;
   align-items: center;
+}
+main .seccion1 .map {
+  margin-left: 11rem;
 }
 main .seccion1 img {
   width: 525px;
@@ -260,8 +259,7 @@ footer ul li {
 
 .sectcion2 {
   display: flex;
-  justify-content: space-around;
-  margin-left: 0rem;
+  justify-content: space-evenly;
 }
 .sectcion2 .card {
   margin: 1rem;
@@ -269,24 +267,19 @@ footer ul li {
 .sectcion2 .card .card-body {
   background-color: rgb(153, 148, 148);
   padding: 1rem;
-  margin: 0.5rem;
+  margin: 15px;
   width: 26rem;
   color: rgb(24, 23, 23);
 }
 @media only screen and (max-width: 480px) {
-  .sectcion2 .sectcion2 {
+  .sectcion2 {
     display: block;
-    z-index: 5;
-  }
-  .sectcion2 .sectcion2 .card-body {
-    display: block;
-    margin-left: 4rem;
   }
 }
 
 #carouselExampleIndicators {
   width: 1300px;
-  height: 525px;
+  height: 505px;
   margin: 25px;
 }
 #carouselExampleIndicators .carousel-inner img {
@@ -296,13 +289,13 @@ footer ul li {
 }
 @media only screen and (max-width: 480px) {
   #carouselExampleIndicators {
-    margin: 3rem;
-    height: 20rem;
-    width: 20rem;
+    margin: 2rem;
+    margin-left: 5.5rem;
+    height: 19rem;
+    width: 19rem;
   }
-  #carouselExampleIndicators .carousel-inner {
-    margin: 3rem;
-    height: 20rem;
+  #carouselExampleIndicators .carousel-inner img {
+    height: 18rem;
     width: 20rem;
   }
 }

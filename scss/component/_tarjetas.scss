@@ -3,8 +3,8 @@
 
 .sectcion2{
     display:flex ;
-    justify-content:space-around;
-    margin-left: 0rem;
+    justify-content:space-evenly;
+
 
     .card{
         margin: 1rem;
@@ -12,7 +12,7 @@
         .card-body{
             background-color: rgb(153, 148, 148);
             padding: 1rem;
-            margin: 0.5rem;
+            margin: 15px;
             width: 26rem;
             color: rgb(24, 23, 23);
         
@@ -23,17 +23,7 @@
 
     @include mv(){
 
-        .sectcion2 {
-            display: block;
-            z-index: 5;
-
-
-            .card-body{
-                display: block;
-                margin-left: 4rem;
-
-            }
-        }
+        display: block;
     }
 }
 
