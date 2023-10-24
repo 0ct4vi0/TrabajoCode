@@ -24,6 +24,13 @@
     @include mv(){
 
         display: block;
+         
+            .card{
+
+                .card-body{
+                    width: 20rem;
+                }
+            }
     }
 }
 

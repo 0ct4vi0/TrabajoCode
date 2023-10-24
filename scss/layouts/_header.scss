@@ -49,8 +49,8 @@ header{
             border-radius: 100px;
 
             &:hover {
-                transition: 1s;
-                animation-delay: 8s;
+                transition: 0.4s;
+                animation-delay: 10s;
                 width: 70px;
                 margin:5px ;
 
@@ -62,7 +62,7 @@ header{
         display: block;
         padding: 0px;
         margin: 0px;
-        width: 29.9rem;
+        width: 23.69rem;
         height: 12.5%;
 
 
@@ -75,7 +75,7 @@ header{
                     margin: 0%;
 
                     img{
-                        width: 15rem;
+                        width: 13rem;
                         margin: 1rem; 
                     }
                 }
@@ -83,8 +83,8 @@ header{
         .contactos1{
             img{
                 margin: 0.5rem;
-                margin-left: 4.5rem;
-                width: 3.4rem ;
+                margin-left: 3.5rem;
+                width: 2.7rem ;
             
             }
         }
