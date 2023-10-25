@@ -48,12 +48,12 @@ header .contactos1 img:hover {
     display: block;
     padding: 0px;
     margin: 0px;
-    width: 25.5em;
+    width: 25.7em;
     height: 12.5%;
   }
   header nav .container-fluid {
     padding: 0%;
-    width: 29.98rem;
+    width: 25.7em;
     height: 14%;
     margin: 0%;
   }
@@ -63,7 +63,7 @@ header .contactos1 img:hover {
   }
   header .contactos1 img {
     margin: 0.5rem;
-    margin-left: 3.7rem;
+    margin-left: 3.98rem;
     width: 2.7rem;
   }
 }
@@ -129,10 +129,10 @@ main .subtitulo3 {
     display: block;
   }
   main .seccion1 .map {
-    margin-left: 2rem;
+    margin-left: 2.3rem;
   }
   main .seccion1 img {
-    margin-left: 2.9rem;
+    margin-left: 3.7em;
     margin-top: -2rem;
     width: 18rem;
     height: 16rem;
@@ -167,7 +167,7 @@ main .subtitulo3 {
   .expocicion {
     display: block;
     border: none;
-    margin-left: 5rem;
+    margin-left: 6.3rem;
   }
   .expocicion img {
     border: 3px solid black;
@@ -242,13 +242,14 @@ footer ul li {
 @media only screen and (max-width: 480px) {
   .conteiner_form {
     margin: 1rem;
-    margin-left: 1.96rem;
+    margin-left: 2.75rem;
     width: 20rem;
     height: 27rem;
     display: block;
   }
   .conteiner_form .formulario {
     margin: 1rem;
+    margin-left: 1.6rem;
     padding: 1rem;
   }
   .conteiner_form .formulario .formulario__texto {
@@ -294,7 +295,7 @@ footer ul li {
 @media only screen and (max-width: 480px) {
   #carouselExampleIndicators {
     margin: 2rem;
-    margin-left: 2.5rem;
+    margin-left: 3rem;
     height: 19rem;
     width: 19rem;
   }
@@ -345,6 +346,7 @@ footer ul li {
     display: block;
     margin: 0.2rem;
     padding: 0%;
+    margin-left: 1rem;
   }
   .especificasiones .diseño {
     margin: 2rem;
