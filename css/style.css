@@ -53,7 +53,7 @@ header .contactos1 img:hover {
   }
   header nav .container-fluid {
     padding: 0%;
-    width: 29.9rem;
+    width: 29.98rem;
     height: 14%;
     margin: 0%;
   }
@@ -63,7 +63,7 @@ header .contactos1 img:hover {
   }
   header .contactos1 img {
     margin: 0.5rem;
-    margin-left: 3.5rem;
+    margin-left: 3.7rem;
     width: 2.7rem;
   }
 }
@@ -117,7 +117,7 @@ main .subtitulo3 {
 }
 @media only screen and (max-width: 480px) {
   main img {
-    width: 25.5em;
+    width: 25.7em;
     height: 13rem;
   }
   main h2 {
@@ -190,7 +190,7 @@ footer ul li {
 }
 @media only screen and (max-width: 480px) {
   footer {
-    width: 25.5em;
+    width: 25.7em;
   }
 }
 
